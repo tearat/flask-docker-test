@@ -7,3 +7,7 @@
 (9010 port on your machine and 5000 inside the container)
 
 From this [guide](https://runnable.com/docker/python/dockerize-your-flask-application)
+
+# Development + watch
+
+`FLASK_APP=main.py FLASK_ENV=development flask run --port 9010"`
